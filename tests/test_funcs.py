@@ -1,6 +1,6 @@
 import pytest
 
-from src.my_funcs import allowed_to_drive, get_largest_value_in_list, get_largest
+# from src.my_funcs import allowed_to_drive
 
 
 # Testing allowed_to_drive
