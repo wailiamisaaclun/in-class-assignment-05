@@ -1,21 +1,19 @@
 import pytest
 
-# from src.my_funcs import allowed_to_drive
+from src.my_funcs import get_largest_value_in_list
 
+def test_get_largest_value_in_list_1():
+    res = get_largest_value_in_list([])
+    assert res == None
 
-# Testing allowed_to_drive
-# Work together
-## Write first test
+def test_get_largest_value_in_list_2():
+    res = get_largest_value_in_list([1,2,3])
+    assert res == 3
 
-# Check for understanding
-## Write second test
+def test_get_largest_value_in_list_2():
+    res = get_largest_value_in_list([3,2,1])
+    assert res == 3
 
-
-
-# Testing get_largest_value_in_list
-# Work together, 
-## write simplest case
-
-
-# Check for Understanding
-## write 2 more test cases
+def test_get_largest_value_in_list_2():
+    res = get_largest_value_in_list([3,3,3])
+    assert res == 3
